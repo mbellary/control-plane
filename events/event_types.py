@@ -1,0 +1,6 @@
+INTENT_CREATED = "intent.created"
+PLAN_GENERATED = "plan.generated"
+EXECUTION_STARTED = "execution.started"
+EXECUTION_COMPLETED = "execution.completed"
+ARTIFACT_REGISTERED = "artifact.registered"
+DRIFT_DETECTED = "drift.detected"
