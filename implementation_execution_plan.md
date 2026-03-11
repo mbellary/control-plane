@@ -51,11 +51,11 @@ To track progress with clear delivery gates, this plan uses the following status
 
 | ID | Task | Deliverables | Dependencies | Status |
 |---|---|---|---|---|
-| P1-1 | Define canonical domain schemas | Typed models for Intent, Plan, Execution, Artifact, Drift, Policy | P0-1 | pending |
-| P1-2 | Add schema versioning strategy | Version fields, compatibility policy, deprecation workflow | P1-1 | pending |
-| P1-3 | Define API contracts (OpenAPI) | Versioned OpenAPI spec with request/response/error envelopes | P1-1 | pending |
-| P1-4 | Define internal events/contracts | Event type catalog + payload schema validation | P1-1 | pending |
-| P1-5 | Introduce contract tests | Consumer/provider contract suite for API + events | P1-3, P1-4 | pending |
+| P1-1 | Define canonical domain schemas | Typed models for Intent, Plan, Execution, Artifact, Drift, Policy | P0-1 | validated |
+| P1-2 | Add schema versioning strategy | Version fields, compatibility policy, deprecation workflow | P1-1 | validated |
+| P1-3 | Define API contracts (OpenAPI) | Versioned OpenAPI spec with request/response/error envelopes | P1-1 | validated |
+| P1-4 | Define internal events/contracts | Event type catalog + payload schema validation | P1-1 | validated |
+| P1-5 | Introduce contract tests | Consumer/provider contract suite for API + events | P1-3, P1-4 | validated |
 
 ## Phase 2 — Platform Runtime Core
 
@@ -127,7 +127,7 @@ To track progress with clear delivery gates, this plan uses the following status
 | Task Group | Total | done | in-progress | pending | blocked | at-risk | in-review | validated |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Program Setup (P0) | 4 | 0 | 0 | 4 | 0 | 0 | 0 | 0 |
-| Domain & Contracts (P1) | 5 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
+| Domain & Contracts (P1) | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | Runtime Core (P2) | 6 | 0 | 0 | 6 | 0 | 0 | 0 | 0 |
 | API & Governance (P3) | 5 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
 | Reliability & Ops (P4) | 5 | 0 | 0 | 5 | 0 | 0 | 0 | 0 |
