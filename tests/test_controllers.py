@@ -1,7 +1,7 @@
 import unittest
 
-from controllers.intent_controller import IntentController
-from controllers.plan_controller import PlanController
+from control_plane.controllers.intent_controller import IntentController
+from control_plane.controllers.plan_controller import PlanController
 
 
 class ControllerTests(unittest.TestCase):

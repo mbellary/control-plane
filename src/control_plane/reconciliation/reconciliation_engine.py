@@ -1,5 +1,5 @@
-from reconciliation.drift_detector import DriftDetector
-from reconciliation.state_reconciler import StateReconciler
+from control_plane.reconciliation.drift_detector import DriftDetector
+from control_plane.reconciliation.state_reconciler import StateReconciler
 
 
 class ReconciliationEngine:

@@ -1,6 +1,6 @@
 import unittest
 
-from controllers.execution_controller import ExecutionController
+from control_plane.controllers.execution_controller import ExecutionController
 
 
 class IntegrationTests(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from reconciliation.reconciliation_engine import ReconciliationEngine
+from control_plane.reconciliation.reconciliation_engine import ReconciliationEngine
 
 
 class ReconciliationTests(unittest.TestCase):

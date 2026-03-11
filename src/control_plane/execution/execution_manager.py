@@ -1,4 +1,4 @@
-from execution.adapter_resolver import Adapter
+from control_plane.execution.adapter_resolver import Adapter
 
 
 class ExecutionManager:
