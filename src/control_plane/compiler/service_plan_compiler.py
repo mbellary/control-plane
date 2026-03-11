@@ -1,7 +1,7 @@
-from compiler.engine_binding import EngineBinding
-from compiler.ir_builder import IRBuilder
-from compiler.optimizer_pass import OptimizerPass
-from compiler.validation_pass import ValidationPass
+from control_plane.compiler.engine_binding import EngineBinding
+from control_plane.compiler.ir_builder import IRBuilder
+from control_plane.compiler.optimizer_pass import OptimizerPass
+from control_plane.compiler.validation_pass import ValidationPass
 
 
 class ServicePlanCompiler:

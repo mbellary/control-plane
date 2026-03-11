@@ -1,10 +1,10 @@
 .PHONY: test lint run
 
 test:
-	python -m unittest discover -s tests -p '*_tests.py'
+	uv run pytest
 
 lint:
-	python -m py_compile $(shell find . -name '*.py' -not -path './.git/*')
+	uv run ruff check .
 
 run:
-	python cmd/control_plane_server.py
+	uv run python -m control_plane.cmd.control_plane_server

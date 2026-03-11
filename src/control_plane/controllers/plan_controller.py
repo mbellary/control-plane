@@ -1,5 +1,5 @@
-from compiler.service_plan_compiler import ServicePlanCompiler
-from planner_client.planner_client import PlannerClient
+from control_plane.compiler.service_plan_compiler import ServicePlanCompiler
+from control_plane.planner_client.planner_client import PlannerClient
 
 
 class PlanController:

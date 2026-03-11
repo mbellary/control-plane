@@ -1,6 +1,6 @@
-from execution.adapter_resolver import AdapterResolver
-from execution.execution_manager import ExecutionManager
-from execution.run_manifest_generator import RunManifestGenerator
+from control_plane.execution.adapter_resolver import AdapterResolver
+from control_plane.execution.execution_manager import ExecutionManager
+from control_plane.execution.run_manifest_generator import RunManifestGenerator
 
 
 class ExecutionController:

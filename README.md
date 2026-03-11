@@ -10,9 +10,16 @@ Deterministic AI Governance Control Plane runtime orchestration layer.
 - Drift monitoring
 
 ## Layout
-This repository follows the scaffolding in `control-plane-repository-scaffolding.md` and provides module stubs for runtime controllers, APIs, reconciliation, governance, execution, and storage.
+This repository uses a `src/` package layout. Application code lives in `src/control_plane` and tests live in `tests/`.
 
 ## Run
 ```bash
-python cmd/control_plane_server.py
+uv run python -m control_plane.cmd.control_plane_server
+```
+
+## Development
+```bash
+uv sync --group dev
+uv run ruff check .
+uv run pytest
 ```

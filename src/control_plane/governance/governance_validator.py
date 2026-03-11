@@ -1,5 +1,5 @@
-from governance.constraint_evaluator import ConstraintEvaluator
-from governance.policy_engine import PolicyEngine
+from control_plane.governance.constraint_evaluator import ConstraintEvaluator
+from control_plane.governance.policy_engine import PolicyEngine
 
 
 class GovernanceValidator:
